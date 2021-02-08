@@ -1,0 +1,52 @@
+.carousel-item {
+    height: 640px;
+    image-rendering: auto;
+}
+
+.head {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.navbar-brand img {
+    height: 45px;
+    width: auto;
+    display: block;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.head2 {
+    color: silver;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-20%)
+}
+
+.card-img-top {
+    width: 15%px;
+    height: 15vw !important;
+}
+
+.about-content {
+    font-size: 20px;
+    line-height: 2rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#register {
+    margin-top: 20px;
+    background-image: url("./Images/street.jpeg")
+}
+
+#reg {
+    bottom: 20px;
+}
