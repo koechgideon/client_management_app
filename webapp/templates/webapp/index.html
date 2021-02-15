@@ -27,7 +27,7 @@
                       <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#login">Login</a>
+                      <a class="nav-link" href="{% url 'login' %}">Login</a>
                      </li>
                           <li class="nav-item">
                                 <a class="nav-link" href="#register">Register</a>
@@ -51,7 +51,7 @@
                         <div class="carousel-caption d-none d-md-block">
                                 <h5>Welcome to Horizon Data Analytics</h5>
                                 
-                                <p><button class="btn btn-info btn - lg">Login</button></p>
+                                <p><a  class="btn btn-info btn - lg" href="{% url 'login' %}">Login</a> </p>
                               </div>
                       </div>
                       <div class="carousel-item">
@@ -111,71 +111,5 @@
           </div>
         </div>
     </div>
-    <div id="register" class="container-fluid">
-      <h2 class="head2">Register/login</h2>
-      <div class="row">
-        <div class="col" id="reg">
-            <div class="card">
-              <div class="card-header">Register</div>
-                <div class="card-body">
-                    <form>
-                      <div class="row">
-                        <div class="form-group col=8">
-                            <label for="exampleInputEmail1">User Name</label>
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter User Name">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                          </div>
-                          <div class="form-group col=4">
-                              <label for="exampleFormControlSelect1">Gender</label>
-                              <select class="form-control" id="exampleFormControlSelect1">
-                                <option>Male</option>
-                                <option>Female</option>
-                              </select>
-                            </div>
-                      </div>
-                        <div class="form-group">
-                          <label for="exampleInputEmail1">Email address</label>
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                        </div>
-                        <div class="form-group">
-                          <label for="exampleInputPassword1">Password</label>
-                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                        </div>
-                        <div class="form-group form-check">
-                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                      </form>
-                </div>
-              </div>
-        </div>
-          <div class="col" id ="login">
-              <div class="card">
-                  <div class="card-header">Login</div>
-                  <form>
-                      <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                      </div>
-                      <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                      </div>
-                      <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                      </div>
-                      <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                  </div>
-                </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="contact">a</div>
 </body>
 </html>
