@@ -7,7 +7,7 @@ from .models import *
 
 class CustomerForm(ModelForm):
 	class Meta:
-		model = Customer
+		model = Client
 		fields = '__all__'
 		exclude = ['user']
 

@@ -3,13 +3,13 @@ from django.contrib.auth.models import User
 from django.contrib.auth.models import Group
 
 
-from .models import Customer
+from .models import Client
 
 def customer_profile(sender, instance, created, **kwargs):
 	if created:
-		group = Group.objects.get(name='customer')
+		group = Group.objects.get(name='client')
 		instance.groups.add(group)
-		Customer.objects.create(
+		Client.objects.create(
 			user=instance,
 			name=instance.username,
 			)
