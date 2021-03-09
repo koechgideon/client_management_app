@@ -1,6 +1,6 @@
 <p align="center">
   <p align="center">
-<h1) Client Management Application </h1>
+<h1> Client Management Application </h1>
   </p>
 </p>
 
