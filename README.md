@@ -4,8 +4,6 @@
   </p>
 </p>
 
-This repository is a client management application Django project for quickly getting started.
-
 
 ## Getting started
 
